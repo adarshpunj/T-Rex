@@ -1,12 +1,13 @@
-from PIL import Image
-import numpy as np
 import pyautogui as m
-import time
-stdpath = m.screenshot(region=(549,264, 100, 2))
-m.moveTo(549,264)
+import numpy as np
+size = m.size()
+x = 0.38125*size[0]
+y = 0.2934*size[1]
+stdpath = m.screenshot(region=(x,y, 100, 2))
+m.moveTo(x,y)
 constant = np.array(stdpath)
 while True:
-    tree = m.screenshot(region=(549,264, 100, 2))
+    tree = m.screenshot(region=(x,y, 100, 2))
     ar = np.array(tree)
     if (ar!=constant).any():
-        m.press('space') 
+        m.press('space')

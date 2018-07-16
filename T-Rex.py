@@ -3,7 +3,7 @@ import numpy as np
 
 size = m.size()
 
-#Coordinates adjusted for macOS
+#Coordinates adjusted for macOS (High Sierra)
 x = 0.38125*size[0]
 y = 0.2934*size[1]
 

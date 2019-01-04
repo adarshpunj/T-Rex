@@ -9,3 +9,5 @@
 
 1. Open the T-Rex game in your browser. 
 2. Run the [T-Rex.py](fhttps://github.com/adarshpunj/T-Rex/archive/master.zip) file.
+
+###### Please note that this code was written while keeping macOS High Sierra in mind, you would want to make certain changes to run it in your system.
